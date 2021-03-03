@@ -41,6 +41,16 @@ body{
     background: #fff;
 }
 
+.btn-blue{
+  color: #ffff;
+  background: #0044c2;
+}
+
+.btn-blue:hover{
+  color: #ffff;
+  background: #01318a;
+}
+
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
