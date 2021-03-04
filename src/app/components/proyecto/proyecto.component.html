@@ -7,7 +7,7 @@
             </div>
             <div class="card-footer text-muted">
                 <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('venta')" data-bs-target="#staticBackdrop"> ver mas </button> 
+                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Punto de Venta')" data-bs-target="#staticBackdrop"> ver mas </button> 
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
             </div>
             <div class="card-footer text-muted">
                 <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm"> ver mas </button> 
+                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Tienda')" data-bs-target="#staticBackdrop"> ver mas </button> 
                 </div>
             </div>
         </div>
@@ -128,6 +128,8 @@
             <app-emprendedor *ngIf="title == 'Emprendedor' " ></app-emprendedor>
             <app-equipo *ngIf="title == 'Equipo' " ></app-equipo>
             <app-seminario *ngIf="title == 'Seminario' " ></app-seminario>
+            <app-tienda *ngIf="title == 'Tienda' " ></app-tienda>
+            <app-venta *ngIf="title == 'Punto de Venta' " ></app-venta>
         </div>
         
       </div>

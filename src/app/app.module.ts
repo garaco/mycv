@@ -14,6 +14,8 @@ import { ExpressComponent } from './components/proyectos/express/express.compone
 import { EmprendedorComponent } from './components/proyectos/emprendedor/emprendedor.component';
 import { EquipoComponent } from './components/proyectos/equipo/equipo.component';
 import { SeminarioComponent } from './components/proyectos/seminario/seminario.component';
+import { TiendaComponent } from './components/proyectos/tienda/tienda.component';
+import { VentaComponent } from './components/proyectos/venta/venta.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { SeminarioComponent } from './components/proyectos/seminario/seminario.c
     EmprendedorComponent,
     EquipoComponent,
     SeminarioComponent,
+    TiendaComponent,
+    VentaComponent,
   ],
   imports: [
     BrowserModule,
