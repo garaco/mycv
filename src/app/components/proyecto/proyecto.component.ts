@@ -5,11 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './proyecto.component.html',
   styleUrls: ['./proyecto.component.css']
 })
-export class ProyectoComponent implements OnInit {
+export class ProyectoComponent{
 
+  title:string='';
   constructor() { }
 
-  ngOnInit(): void {
+  open(title:string){
+    this.title = title;
   }
-
 }
