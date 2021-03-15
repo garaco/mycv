@@ -36,6 +36,11 @@ body{
     background: #0044c2;
 }
 
+.bg-blue{
+  color: #ffff;
+  background: #0044c2;
+}
+
 .activo:hover{
     color: #0044c2;
     background: #fff;

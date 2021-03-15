@@ -1,81 +1,98 @@
 <div class="container mt-3">
     <div class="row d-flex justify-content-evenly">
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn" >
-            <img class="mt-2" src="assets/img/venta/venta.png" style="width: 100%;" alt="...">                
-            <div class="card-body text-center">
-                <h5 class="card-title text-center">Punto de venta</h5>
-            </div>
-            <div class="card-footer text-muted">
-                <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Punto de Venta')" data-bs-target="#staticBackdrop"> ver mas </button> 
+        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 400px; overflow: hidden;"
+            (click)="open('Punto de Venta')" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staticBackdrop">
+            
+            <img  src="assets/img/venta/venta.png" style="width: 100%;" alt="...">                
+            <div class="titulo">
+                <div class="t1">
+                    <h3>Punto de venta</h3>
                 </div>
             </div>
+
         </div>
 
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn" >
-            <img src="assets/img/premas/premas-login.png" style="width: 100%;" alt="...">                
-            <div class="card-body text-center">
-                <h5 class="card-title">PREMAS</h5>
-            </div>
-            <div class="card-footer text-muted">
-                <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('PREMAS')" data-bs-target="#staticBackdrop"> ver mas </button> 
+        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 400px; overflow: hidden;"
+            (click)="open('PREMAS')" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staticBackdrop">
+
+            <img src="assets/img/premas/premas-login.png" style="width: 100%;" alt="...">     
+            <div class="titulo">
+                <div class="t1">
+                    <h3>PREMAS</h3>
                 </div>
-            </div>
-        </div>
-
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn" >
-            <img src="assets/img/symphony/inicio.png" style="width: 100%;" alt="...">        
-            <div class="card-body text-center">
-                <h5 class="card-title">Symphony</h5>
-            </div>
-            <div class="card-footer text-muted">
-                <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Symphony')" data-bs-target="#staticBackdrop"> ver mas </button> 
-                </div>
-            </div>
-        </div>
-
-        
+                
+            </div>           
+        </div>        
 
     </div>
 
-    <div class="row d-flex justify-content-evenly animated fadeIn">
-
-        <div class="card col-sm-3 mt-4 mb-3" >
-            <img src="assets/img/tienda/tienda.png" style="width: 100%;" alt="...">        
-            <div class="card-body text-center">
-                <h5 class="card-title">Tienda online</h5>
-            </div>
-            <div class="card-footer text-muted">
-                <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Tienda')" data-bs-target="#staticBackdrop"> ver mas </button> 
-                </div>
-            </div>
-        </div>
+    <div class="row d-flex justify-content-evenly">
         
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn" >
-            <img src="assets/img/seminario/seminario-login.png" style="width: 100%;" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title">PreSeminario</h5>
+        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+        style="padding: 0; width: 400px; overflow: hidden;"
+        (click)="open('Symphony')" 
+        data-bs-toggle="modal" 
+        data-bs-target="#staticBackdrop">
+
+        <img src="assets/img/symphony/inicio.png" style="width: 100%;" alt="...">       
+        <div class="titulo">
+            <div class="t1">
+                <h3>Symphony</h3>
             </div>
-            <div class="card-footer text-muted">
-                <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Seminario')" data-bs-target="#staticBackdrop"> ver mas </button> 
-                </div>
-            </div>
+        </div>  
         </div>
 
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn" >
-            <img src="assets/img/express/portada.png" style="width: 100%;" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title">Voy Express</h5>
+
+        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+        style="padding: 0; width: 400px; overflow: hidden;"
+        (click)="open('Tienda')" 
+        data-bs-toggle="modal" 
+        data-bs-target="#staticBackdrop">
+
+        <img src="assets/img/tienda/tienda.png" style="width: 100%;" alt="...">   
+        <div class="titulo">
+            <div class="t1">
+                <h3>Tienda online</h3>
             </div>
-            <div class="card-footer text-muted">
-                <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Voy Express')" data-bs-target="#staticBackdrop"> ver mas </button> 
+        </div>     
+        </div>
+
+    </div>
+
+    <div class="row d-flex justify-content-evenly">
+        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+        style="padding: 0; width: 400px; overflow: hidden;"
+        (click)="open('Seminario')" 
+        data-bs-toggle="modal" 
+        data-bs-target="#staticBackdrop">
+
+
+            <img src="assets/img/seminario/seminario-login.png" style="width: 100%;" alt="...">
+            <div class="titulo">
+                <div class="t1">
+                    <h3>PreSeminario</h3>
                 </div>
-            </div>
+            </div> 
+        </div>
+
+        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+        style="padding: 0; width: 400px; overflow: hidden;"
+        (click)="open('Voy Express')" 
+        data-bs-toggle="modal" 
+        data-bs-target="#staticBackdrop">
+
+            <img src="assets/img/express/portada.png" style="width: 100%;" alt="...">
+            <div class="titulo">
+                <div class="t1">
+                    <h3>Voy Express</h3>
+                </div>
+            </div> 
         </div>
         
     </div>
@@ -83,32 +100,36 @@
     <div class="row d-flex justify-content-evenly">
 
         
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn" >
+        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+        style="padding: 0; width: 400px; overflow: hidden;"
+        (click)="open('Equipo')" 
+        data-bs-toggle="modal" 
+        data-bs-target="#staticBackdrop">
+
             <img src="assets/img/equipo/equipo.png" style="width: 100%;" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title">Presentacion de Equipo</h5>
-            </div>
-            <div class="card-footer text-muted">
-                <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Equipo')" data-bs-target="#staticBackdrop"> ver mas </button> 
+            <div class="titulo">
+                <div class="t1">
+                    <h3>Presentacion de Equipo</h3>
                 </div>
-            </div>
+            </div> 
         </div>
 
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn" >
+        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+        style="padding: 0; width: 400px; overflow: hidden;"
+        (click)="open('Emprendedor')" 
+        data-bs-toggle="modal" 
+        data-bs-target="#staticBackdrop">
+
             <img src="assets/img/emprendedor/emprendedor.png" style="width: 100%;" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title">Espacio Emprendedor</h5>
-            </div>
-            <div class="card-footer text-muted">
-                <div class="d-grid gap-2 col-12 mx-auto">
-                    <button class="btn btn-blue btn-sm" data-bs-toggle="modal" (click)="open('Emprendedor')" data-bs-target="#staticBackdrop"> ver mas </button> 
+            <div class="titulo">
+                <div class="t1">
+                    <h3>Espacio Emprendedor</h3>
                 </div>
-            </div>
+            </div> 
         </div>
         
     </div>
-    
+    <br><br>
 </div>
 
 
