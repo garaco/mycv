@@ -20,6 +20,7 @@
 	border: 1px solid #FFF;
 }
 .social li a:hover {
-	background: #0c5df3;
-	border-color: #0c5df3;
+	background: #0044c2;
+	border-color: #0044c2;
+    transition: 0.3s;
 }
