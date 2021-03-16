@@ -22,10 +22,10 @@ body{
   background: #07c04e;
 }
 
-.activo{
+/* .activo{
     color: #ffff;
     background: #0044c2;
-}
+} */
 
 .bg-blue{
   color: #ffff;
@@ -55,6 +55,14 @@ body{
   z-index: 1020;
 }
 
+.nav-text-t a{
+  color: #fff;
+}
+
+.nav-text-t a:hover{
+  color: #0044c2;
+  transition: 0.5s;
+}
 .card-me{
   clear: both;
   top: 80px;
@@ -175,6 +183,14 @@ position: relative;
 letter-spacing: 0.5px;
 margin-bottom: 25px;
 }
+.modal_title {
+  font-family: 'Righteous', cursive;
+  color: #FFF;
+  font-size: 28px;
+  line-height: 30px;
+  position: relative;
+  letter-spacing: 0.5px;
+  }
 
 .db_my_interests {
 	margin-left: -10px;
@@ -234,13 +250,13 @@ margin-bottom: 25px;
 	bottom: 0;
 
 }
-.btn01:hover, .btn01:focus {
+.btn01:hover {
 	color: #FFF;
 	border-color: #0044c2;
   background: #0044c2;
   transition: 0.5s;
 }
-.btn01:hover:before, .btn01:focus:before, .btn01:active:before {
+.btn01:hover:before{
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 	-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);

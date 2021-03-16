@@ -1,156 +1,178 @@
-<div class="container mt-3">
-    <div class="row d-flex justify-content-evenly">
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
-            style="padding: 0; width: 400px; overflow: hidden;"
-            (click)="open('Punto de Venta')" 
-            data-bs-toggle="modal" 
-            data-bs-target="#staticBackdrop">
-            
-            <img  src="assets/img/venta/venta.png" style="width: 100%;" alt="...">                
-            <div class="titulo">
-                <div class="t1">
-                    <h3>Punto de venta</h3>
-                </div>
-            </div>
+<section id="portafolio" style="background: #252A2E; padding-top: 20px; padding-bottom: 40px;">
 
-        </div>
+    <div class="db_section_title mt-4">
+        <h2>Portafolio</h2>
+    </div>
 
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
-            style="padding: 0; width: 400px; overflow: hidden;"
-            (click)="open('PREMAS')" 
-            data-bs-toggle="modal" 
-            data-bs-target="#staticBackdrop">
-
-            <img src="assets/img/premas/premas-login.png" style="width: 100%;" alt="...">     
-            <div class="titulo">
-                <div class="t1">
-                    <h3>PREMAS</h3>
-                </div>
+    <div style="width: 90%; padding-left: 10%; text-align: justify;">
+        <div class="row d-flex justify-content-evenly">
+            <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 300px; height: 300px; overflow: hidden; border-radius: 12px;"
+                (click)="open('Punto de Venta')" 
+                data-bs-toggle="modal" 
+                data-bs-target="#staticBackdrop">
                 
-            </div>           
-        </div>        
-
-    </div>
-
-    <div class="row d-flex justify-content-evenly">
-        
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
-        style="padding: 0; width: 400px; overflow: hidden;"
-        (click)="open('Symphony')" 
-        data-bs-toggle="modal" 
-        data-bs-target="#staticBackdrop">
-
-        <img src="assets/img/symphony/inicio.png" style="width: 100%;" alt="...">       
-        <div class="titulo">
-            <div class="t1">
-                <h3>Symphony</h3>
+                <img  src="assets/img/venta/venta.png" class="imgp" alt="...">                
+                <div class="titulo">
+                    <div class="t1">
+                        <h3>Punto de venta</h3>
+                    </div>
+                </div>
+    
             </div>
-        </div>  
-        </div>
-
-
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
-        style="padding: 0; width: 400px; overflow: hidden;"
-        (click)="open('Tienda')" 
-        data-bs-toggle="modal" 
-        data-bs-target="#staticBackdrop">
-
-        <img src="assets/img/tienda/tienda.png" style="width: 100%;" alt="...">   
-        <div class="titulo">
-            <div class="t1">
-                <h3>Tienda online</h3>
+    
+            <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 300px; height: 300px; overflow: hidden; border-radius: 12px;"
+                (click)="open('PREMAS')" 
+                data-bs-toggle="modal" 
+                data-bs-target="#staticBackdrop">
+    
+                <img src="assets/img/premas/premas-login.png" class="imgp" alt="...">     
+                <div class="titulo">
+                    <div class="t1">
+                        <h3>PREMAS</h3>
+                    </div>
+                    
+                </div>           
+            </div>      
+            
+            <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 300px; height: 300px; overflow: hidden; border-radius: 12px;"
+            (click)="open('Symphony')" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staticBackdrop">
+    
+            <img src="assets/img/symphony/inicio.png" class="imgp" alt="...">       
+            <div class="titulo">
+                <div class="t1">
+                    <h3>Symphony</h3>
+                </div>
+            </div>  
             </div>
-        </div>     
+    
+    
         </div>
-
+    
+        <div class="row d-flex justify-content-evenly">
+    
+            <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 300px; height: 300px; overflow: hidden; border-radius: 12px;"
+            (click)="open('Tienda')" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staticBackdrop">
+    
+            <img src="assets/img/tienda/tienda.png" class="imgp" alt="...">   
+            <div class="titulo">
+                <div class="t1">
+                    <h3>Tienda online</h3>
+                </div>
+            </div>     
+            </div>
+    
+            <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 300px; height: 300px; overflow: hidden; border-radius: 12px;"
+            (click)="open('Seminario')" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staticBackdrop">
+    
+    
+                <img src="assets/img/seminario/seminario-login.png" class="imgp" alt="...">
+                <div class="titulo">
+                    <div class="t1">
+                        <h3>PreSeminario</h3>
+                    </div>
+                </div> 
+            </div>
+    
+            <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 300px; height: 300px; overflow: hidden; border-radius: 12px;"
+            (click)="open('Voy Express')" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staticBackdrop">
+    
+                <img src="assets/img/express/portada.png" class="imgp" alt="...">
+                <div class="titulo">
+                    <div class="t1">
+                        <h3>Voy Express</h3>
+                    </div>
+                </div> 
+            </div>
+            
+        </div>
+    
+        <div class="row d-flex justify-content-evenly">
+    
+            
+            <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 300px; height: 300px; overflow: hidden; border-radius: 12px;"
+            (click)="open('Equipo')" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staticBackdrop">
+    
+                <img src="assets/img/equipo/equipo.png" class="imgp" alt="...">
+                <div class="titulo">
+                    <div class="t1">
+                        <h3>Presentacion de Equipo</h3>
+                    </div>
+                </div> 
+            </div>
+    
+            <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
+            style="padding: 0; width: 300px; height: 300px; overflow: hidden; border-radius: 12px;"
+            (click)="open('Emprendedor')" 
+            data-bs-toggle="modal" 
+            data-bs-target="#staticBackdrop">
+    
+                <img src="assets/img/emprendedor/emprendedor.png" class="imgp" alt="...">
+                <div class="titulo">
+                    <div class="t1">
+                        <h3>Espacio Emprendedor</h3>
+                    </div>
+                </div> 
+            </div>
+            
+        </div>
     </div>
+    
+</section>
 
-    <div class="row d-flex justify-content-evenly">
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
-        style="padding: 0; width: 400px; overflow: hidden;"
-        (click)="open('Seminario')" 
-        data-bs-toggle="modal" 
-        data-bs-target="#staticBackdrop">
-
-
-            <img src="assets/img/seminario/seminario-login.png" style="width: 100%;" alt="...">
-            <div class="titulo">
-                <div class="t1">
-                    <h3>PreSeminario</h3>
-                </div>
-            </div> 
-        </div>
-
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
-        style="padding: 0; width: 400px; overflow: hidden;"
-        (click)="open('Voy Express')" 
-        data-bs-toggle="modal" 
-        data-bs-target="#staticBackdrop">
-
-            <img src="assets/img/express/portada.png" style="width: 100%;" alt="...">
-            <div class="titulo">
-                <div class="t1">
-                    <h3>Voy Express</h3>
-                </div>
-            </div> 
-        </div>
-        
-    </div>
-
-    <div class="row d-flex justify-content-evenly">
-
-        
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
-        style="padding: 0; width: 400px; overflow: hidden;"
-        (click)="open('Equipo')" 
-        data-bs-toggle="modal" 
-        data-bs-target="#staticBackdrop">
-
-            <img src="assets/img/equipo/equipo.png" style="width: 100%;" alt="...">
-            <div class="titulo">
-                <div class="t1">
-                    <h3>Presentacion de Equipo</h3>
-                </div>
-            </div> 
-        </div>
-
-        <div class="card col-sm-3 mt-4 mb-3 animated fadeIn expan border border-primary"  
-        style="padding: 0; width: 400px; overflow: hidden;"
-        (click)="open('Emprendedor')" 
-        data-bs-toggle="modal" 
-        data-bs-target="#staticBackdrop">
-
-            <img src="assets/img/emprendedor/emprendedor.png" style="width: 100%;" alt="...">
-            <div class="titulo">
-                <div class="t1">
-                    <h3>Espacio Emprendedor</h3>
-                </div>
-            </div> 
-        </div>
-        
-    </div>
-    <br><br>
-</div>
 
 
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
-        <div class="modal-header">
-            <div style=" width: 100%;">
-                <h5 class="modal-title text-center" id="staticBackdropLabel">{{ title }}</h5>
+        <div class="modal-header" style="background: #252A2E;">
+            <div style=" width: 100%;" class="modal_title">
+                <h5 class="modal-title text-center text-white" id="staticBackdropLabel">{{ title }}</h5>
             </div>
-          <button type="button" class="btn-close" (click)="open('')" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn close" (click)="open('')" data-bs-dismiss="modal">
+            <i style="color:#fff;" class="fas fa-times"></i>
+          </button>
         </div>
-        <div class="modal-body" style="padding: 0;">
-            <app-premas *ngIf="title == 'PREMAS' " ></app-premas>
-            <app-symphony *ngIf="title == 'Symphony' " ></app-symphony>
-            <app-express *ngIf="title == 'Voy Express' " ></app-express>
-            <app-emprendedor *ngIf="title == 'Emprendedor' " ></app-emprendedor>
-            <app-equipo *ngIf="title == 'Equipo' " ></app-equipo>
-            <app-seminario *ngIf="title == 'Seminario' " ></app-seminario>
-            <app-tienda *ngIf="title == 'Tienda' " ></app-tienda>
-            <app-venta *ngIf="title == 'Punto de Venta' " ></app-venta>
+        <div class="modal-body" style="padding: 0; background: #252A2E;">
+            <div class="d-flex justify-content-evenly">
+                <button class="btn ac" type="button" style="opacity: 0.9; color: #fff; width: 25px;" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                  <i class="fas fa-angle-left fa-2x"></i>
+                </button>
+
+                <div style="width: 90%;">
+                    <app-premas *ngIf="title == 'PREMAS' " ></app-premas>
+                    <app-symphony *ngIf="title == 'Symphony' " ></app-symphony>
+                    <app-express *ngIf="title == 'Voy Express' " ></app-express>
+                    <app-emprendedor *ngIf="title == 'Emprendedor' " ></app-emprendedor>
+                    <app-equipo *ngIf="title == 'Equipo' " ></app-equipo>
+                    <app-seminario *ngIf="title == 'Seminario' " ></app-seminario>
+                    <app-tienda *ngIf="title == 'Tienda' " ></app-tienda>
+                    <app-venta *ngIf="title == 'Punto de Venta' " ></app-venta>
+                    <br><br>
+                </div>
+                
+
+                <button class="btn ac" type="button"  style="opacity: 0.9; color: #fff; width: 25px; padding-left: 2px;" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                  <i class="fas fa-angle-right fa-2x"></i>
+                </button>
+            </div>
+
         </div>
         
       </div>
