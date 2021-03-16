@@ -1,47 +1,141 @@
-<div class="container mb-5">
-  
-    <div class="card border-dark mb-3 mt-3">
-      <div style="height: 30%; overflow:hidden;">
-        <img src="assets/img/fondo.jpg" class="card-img-top">
+<nav class="navbar navbar-expand-lg nav-top">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" 
+    style="color: #fff; border-color: #fff;"
+    type="button" 
+    data-bs-toggle="collapse" 
+    data-bs-target="#collapse" 
+    aria-controls="navbarNav" 
+    aria-expanded="false" 
+    aria-label="Toggle navigation">
+
+    <i class="far fa-chevron-circle-down" style="color: #fff;"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white">Alejandro</a>
+        </li>
+      </ul>
+
+      <div class="d-flex">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="inicio" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#mee">Acerca de mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#resumen">Resumen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#portafolio">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </div>
+</nav>
+
+<section class="fondo" id="inicio">
+  
+    <div class="card mb-3 card-me">
       <div class="card-body text-center mb-3">
+        
         <div class="d-flex justify-content-center">
-          <div class="photo">
-            <img style="width: 180px; height: 180px;" src="assets/img/photo.jpg">
+          <div class="card card-fondo" >
+            <div class="d-flex justify-content-center">
+              <div class="photo">
+                <img class="img-photo" src="assets/img/photo.jpg">
+              </div>
+            </div>
+            <div class="db_banner_text animated fadeIn mt-4">
+              <h1>Alejandro de Jesús García Acosta</h1>
+              <h2>Programador Web</h2>
+            </div>
           </div>
         </div>
-        <h3 class="card-title">Alejandro de Jesús García Acosta</h3>
-        
-        <figure class="text-center mt-4 animated fadeIn">
-          <blockquote class="blockquote">
-            <p style="font-style: italic; font-size: 18px;"> "Estamos aqui para dejar una marca en el universo".</p>
-          </blockquote>
-          <figcaption class="blockquote-footer">
-             <cite title="Source Title">Steve Jobs </cite>
-          </figcaption>
-        </figure>
-
-        <div style="width: 90%; padding-left: 10%; text-align: justify;">
-          <p class="card-text lh-lg ">Soy desarrollador web con 3 años de experiencia en ambientes
-            exigentes centrados en producir sistemas web. Habilidoso en dirigir el
-            desarrollo con enfoque creativo. Bien organizado y centrado en el
-            cliente con habilidades probadas en dirección de proyectos y liderazgo
-            de equipo.</p>
-        </div>
-  
-      </div>
-  
-      <nav class="bg-dark">
-        <div class="nav nav-tabs d-flex justify-content-evenly " id="nav-tab" role="tablist">
-          <button class="nav-link activo" routerLinkActive="active" [routerLink]="['/inicio']" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"> <i class="fad fa-address-card"></i> Acerca de mi</button>
-          <button class="nav-link activo" routerLinkActive="active" [routerLink]="['/proyectos']" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"> <i class="fad fa-project-diagram"></i> Proyectos</button>
-          <button class="nav-link activo" routerLinkActive="active" [routerLink]="['/habilidades']" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"> <i class="fad fa-tasks"></i> Habilidades</button>
-        </div>
-      </nav>
-      <div class="tab-content" id="nav-tabContent">
-        <router-outlet></router-outlet>
       </div>
   
     </div>
   
+  </section>
+
+  <section id="mee" style="padding-bottom: 40px;">
+
+  <div class="db_section_title mt-4">
+      <h2>Acerca de mi</h2>
   </div>
+    <div class="db_common_text" style="width: 90%; padding-left: 10%; text-align: justify;">
+      <p  >Soy desarrollador web con 3 años de experiencia en ambientes
+        exigentes centrados en producir sistemas web. Habilidoso en dirigir el
+        desarrollo con enfoque creativo. Bien organizado y centrado en el
+        cliente con habilidades probadas en dirección de proyectos y liderazgo
+        de equipo.</p>
+    </div>
+    
+    <div style="width: 90%; padding-left: 10%; text-align: justify;">
+      <div class="row">
+
+        <div class="db_common_text col-sm-12 col-md-6">
+          <div class="db_small_title text-center">
+            Detalles personales
+          </div>
+
+          <table>
+            <tr>
+              <td> <strong> Fecha Nacimiento: </strong> </td> <td> 17/10/1996</td>
+            </tr>
+            <tr>
+              <td> <strong> Email: </strong> </td> <td> ale17garaco@gmail.com</td>
+            </tr>
+            <tr>
+              <td> <strong> Ciudad: </strong> </td> <td> Veracruz</td>
+            </tr>
+            <tr>
+              <td> <strong> Nacionalidad: </strong> </td> <td> Mexicano</td>
+            </tr>
+          </table>
+
+        </div>
+  
+        <div class="db_common_text col-sm-12 col-md-6">
+          <div class="db_small_title text-center">
+          Mis Intereses
+        </div>
+
+        <div class="db_my_interests db_common_text">
+          <ul>
+            <li>
+              <p><i class="fas fa-music-alt"></i><span>Música</span></p>
+            </li>
+            <li>
+              <p><i class="far fa-running"></i><span>Deporte</span></p>
+            </li>
+            <li>
+              <p><i class="fad fa-plane"></i><span>Viajes</span></p>
+            </li>
+            <li>
+              <p><i class="fad fa-dreidel"></i><span>Dibujo</span></p>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="db_download_cv_button" > 
+    <a href="#" style="text-decoration: none;" class="btn01"> Downlaod CV 
+      <i class="fa fa-download"></i> 
+    </a> 
+  </div>
+  </section>
+
+  <app-inicio></app-inicio>
+  <app-habilidades></app-habilidades>

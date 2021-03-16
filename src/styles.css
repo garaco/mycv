@@ -1,18 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
 body{
     background: #1b1b1b;
-}
-
-.photo{
-    margin-top: -90px;
-    width: 180px;
-    height: 180px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: #0572ee;
-    overflow:hidden;
-    border: 5px solid #fff;
 }
 
 .blue{
@@ -55,6 +46,207 @@ body{
   color: #ffff;
   background: #01318a;
 }
+
+.nav-top{
+  background: #1E2326; 
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.card-me{
+  clear: both;
+  top: 80px;
+  background-color: transparent;
+  position:relative;
+}
+
+.photo{
+  margin-top: -130px;
+  width: 250px;
+  height: 250px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #252A2E;
+  overflow:hidden;
+  border: 6px solid #2672ff;
+
+}
+
+
+.img-photo{
+  width: 250px; 
+  height: 250px;
+}
+
+.fondo{
+  width: 100%;
+  height: 676px;
+  background-color: #252A2E;
+  background-image: url("/assets/img/fondo.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+}
+
+.card-fondo{
+  top: 100px;
+  width: 20rem; 
+  background: #252A2E;
+}
+
+.db_banner_text h1 {
+font-family: 'Righteous', cursive;
+color: #FFF;
+font-size: 28px;
+line-height: 30px;
+text-transform: uppercase;
+}
+.db_banner_text h2 {
+color: #FFF;
+font-size: 17px;
+line-height: 24px;
+}
+
+
+.db_section_title {
+margin: 0 auto;
+display: table;
+}
+.db_section_img {
+width: 60px;
+height: auto;
+padding: 10px;
+margin: 0 auto 10px;
+border-radius: 5px;
+background: #252A2E;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.db_section_title h2 {
+font-family: 'Righteous', cursive;
+color: #FFF;
+font-size: 48px;
+line-height: 50px;
+padding-bottom: 20px;
+position: relative;
+margin-bottom: 30px;
+}
+.db_section_title h2:after {
+position: absolute;
+content: "";
+border-bottom: 1px solid #0059ff;
+width: 40px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+margin: 0 auto;
+display: table;
+}
+.db_section_title h2:before {
+position: absolute;
+content: "";
+border-bottom: 1px solid #0059ff;
+width: 80px;
+bottom: 8px;
+left: 0px;
+right: 0px;
+margin: 0 auto;
+display: table;
+}
+
+.db_common_text, .db_common_text p, .db_common_text a {
+font-size: 16px;
+letter-spacing: 0.5px;
+line-height: 24px;
+  color: #FFF;
+}
+.db_common_text strong {
+font-weight: 600;
+color: #1c85b6;
+}
+.db_small_title {
+font-family: 'Righteous', cursive;
+color: #FFF;
+font-size: 28px;
+line-height: 30px;
+position: relative;
+letter-spacing: 0.5px;
+margin-bottom: 25px;
+}
+
+.db_my_interests {
+	margin-left: -10px;
+}
+.db_my_interests li {
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	cursor: pointer;
+	padding: 12px 10px;
+	transition: all 0.8s ease 0s;
+	margin: 0 10px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	background: #252A2E;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) inset;
+}
+.db_my_interests li:hover {
+	background: #0044c2;
+}
+.db_my_interests li .fa {
+	font-size: 30px;
+}
+.db_my_interests li span {
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-top: 8px;
+	display: block;
+}
+.db_download_cv_button {
+	margin: 30px auto 0;
+	display: table;
+}
+
+.btn01 {
+	font-size: 16px;
+	color: #FFF;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	background-color: transparent;
+	display: inline-block;
+	border-radius: 0px;
+	vertical-align: middle;
+	padding: 10px 22px;
+
+	border: 1px solid #FFF;
+	-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn01:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+}
+.btn01:hover, .btn01:focus {
+	color: #FFF;
+	border-color: #0044c2;
+  background: #0044c2;
+  transition: 0.5s;
+}
+.btn01:hover:before, .btn01:focus:before, .btn01:active:before {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+	transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
 
 .animated {
     -webkit-animation-duration: 1s;
